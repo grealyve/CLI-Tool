@@ -43,7 +43,7 @@ type WeatherForecast struct {
 // weatherCmd represents the weather command
 var WeatherCmd = &cobra.Command{
 	Use:   "weather",
-	Short: "",
+	Short: "Shows the weather forecast of a city that you write as parameter.",
 	Long:  ``,
 	Run: func(cmd *cobra.Command, args []string) {
 		q := "Mugla"
