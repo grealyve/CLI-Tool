@@ -9,6 +9,7 @@ import (
 	"github.com/grealyve/cli-tool/cmd/info"
 	"github.com/grealyve/cli-tool/cmd/net"
 	"github.com/grealyve/cli-tool/cmd/todo"
+	"github.com/grealyve/cli-tool/cmd/weather"
 	"github.com/spf13/cobra"
 )
 
@@ -34,6 +35,7 @@ func addSubcommands() {
 	rootCmd.AddCommand(info.InfoCmd)
 	rootCmd.AddCommand(net.NetCmd)
 	rootCmd.AddCommand(todo.TodoCmd)
+	rootCmd.AddCommand(weather.WeatherCmd)
 }
 
 func init() {
