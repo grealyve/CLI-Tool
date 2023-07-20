@@ -99,6 +99,6 @@ var WeatherCmd = &cobra.Command{
 }
 
 func init() {
-	// https://www.youtube.com/watch?v=zPYjfgxYO7k
+	// Reference: https://www.youtube.com/watch?v=zPYjfgxYO7k
 
 }
