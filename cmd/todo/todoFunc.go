@@ -13,7 +13,7 @@ import (
 	"github.com/alexeyco/simpletable"
 )
 
-const todoFile = "E:\\VisualStudio\\Go_Practice\\CLI\\todo.json"
+const todoFile = "todo.json"
 
 type Item struct {
 	Task          string
